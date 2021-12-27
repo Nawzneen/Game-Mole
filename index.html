@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="top-menu">
+      <h1>Welcome to the Mole game</h1>
+      <div class="rules">
+        <p>
+          THE RULES ARE:
+          <span>
+            <ol>
+              <li>hit the mole and get 1 point each time</li>
+              <li>
+                Hard mode: if you hit an empty space, you will lose 1 point
+              </li>
+              <li>
+                Hard mode: if you hit the enemy, or the last place the enemy has
+                appeared, you will lose.
+              </li>
+            </ol>
+          </span>
+        </p>
+      </div>
+      <div class="results">
+        <h3>Your Score:</h3>
+        <h4 class="score1">0</h4>
+        <h3>Seconds left:</h3>
+        <h4 id="time-left">10</h4>
+      </div>
+    </div>
+    <div class="container-center">
+      <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+        <div class="square" id="10"></div>
+        <div class="square" id="11"></div>
+        <div class="square" id="12"></div>
+        <div class="square" id="13"></div>
+        <div class="square" id="14"></div>
+        <div class="square" id="15"></div>
+        <div class="square" id="16"></div>
+        <div class="square" id="17"></div>
+        <div class="square" id="18"></div>
+        <div class="square" id="19"></div>
+        <div class="square" id="20"></div>
+        <div class="square" id="21"></div>
+        <div class="square" id="22"></div>
+        <div class="square" id="23"></div>
+        <div class="square" id="24"></div>
+        <div class="square" id="25"></div>
+      </div>
+    </div>
+
+    <div class="side-bar">
+      <h3>Choose Your Mode</h3>
+      <button id="easy-mode" class="selected">Easy Mode</button>
+      <button id="medium-mode">Medium Mode</button>
+      <button id="hard-mode">Hard Mode</button>
+    </div>
+    <div class="over-flow">
+      <!-- <p>hi</p> -->
+    </div>
+
+    <div class="popUp">
+      <p>Game Over</p>
+      <p>your result is:</p>
+      <span class="score2">0</span>
+      <p><button class="restart">Restart</button></p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
