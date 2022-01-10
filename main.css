@@ -22,10 +22,10 @@
 }
 .top-menu h1 {
   margin: 10px;
-  color: rgb(247, 132, 124);
+  color: rgb(12, 201, 44);
 }
 .top-menu p {
-  color: rgb(247, 132, 124);
+  color: rgb(12, 201, 44);
   margin: 5px;
   font-size: 1.2rem;
   font-weight: bold;
@@ -38,12 +38,12 @@
 }
 .rules ol,
 li {
-  color: rgb(64, 64, 112);
+  color: rgb(20, 100, 0);
   text-transform: uppercase;
   font-weight: bolder;
 }
 .top-menu p span {
-  color: rgb(133, 133, 238);
+  color: rgb(20, 100, 0);
   text-transform: uppercase;
 }
 .top-menu h3 {
@@ -51,7 +51,7 @@ li {
   display: inline-block;
 }
 .top-menu h4 {
-  background-color: rgb(133, 133, 238);
+  background-color: rgb(20, 100, 0);
   /* background-color: #014c8f; */
 
   /* 014c8f */
@@ -83,16 +83,22 @@ li {
   justify-content: center;
   align-items: center;
   margin: auto;
-  border: solid 5px rgb(133, 133, 238);
+  border: solid 5px rgb(20, 100, 0);
   border-radius: 10px;
   padding: 10px;
+  cursor: url("images/cursor1.png") 25 25, auto;
+}
+.grid .square:active {
+  cursor: url("images/cursor.png") 25 25, auto;
 }
 .square {
+  cursor: url("images/cursor1.png") 25 25, auto;
+
   margin-left: 10px;
   border: black 1px solid;
   width: 70px;
   height: 70px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .mole {
   background-image: url(./Images/mole.png);
@@ -115,7 +121,7 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(133, 133, 238);
+  background-color: rgb(20, 100, 0);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 
@@ -144,7 +150,7 @@ button {
   cursor: pointer;
 }
 .selected {
-  background-color: rgb(247, 132, 124);
+  background-color: rgb(12, 201, 44);
   color: white;
 }
 
@@ -164,7 +170,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(133, 133, 238, 0.8);
+  background-color: rgba(20, 100, 0, 0.8);
   color: black;
   border-radius: 20px;
   width: 300px;

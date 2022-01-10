@@ -43,7 +43,7 @@ function randomSquare() {
     square.forEach((className) => {
       className.classList.remove("mole");
     });
-  }, 300);
+  }, 500);
 }
 function randomSquareBomb() {
   square.forEach((className) => {
@@ -105,8 +105,6 @@ function moveMole() {
 }
 function moveBomb() {
   if (i === 1) {
-    console.log("code is working");
-
     clearInterval(timerId2);
 
     return; //stop the execution of function
